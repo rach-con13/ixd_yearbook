@@ -17,7 +17,10 @@
     "url": "https://github.com/rach-con13/ixd_yearbook/issues"
   },
   "homepage": "https://github.com/rach-con13/ixd_yearbook#readme",
-  "dependencies": {
-    "express": "^4.17.1"
+  "dependencies": {},
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18"
   }
 }
