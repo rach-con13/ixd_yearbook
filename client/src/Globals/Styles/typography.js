@@ -7,6 +7,7 @@ export const Typography=styled.p`
     text-align:${props => props.align ? props.align : 'left'};
     font-weight:${props => props.weight ? props.weight : 'normal'};
     display:${props => props.inline ? 'inline' : 'block'};
+    font-family:${props => props.family};
 `;
 
 export const Title=styled(Typography).attrs({
@@ -29,3 +30,9 @@ export const Text=styled(Typography)`
 export const Paragraph=styled(Typography)`
     line-height:1.5em;
 `
+export const AccentText = styled(Typography).attrs({
+    as:'span'
+})`
+
+    display:inline;
+`;

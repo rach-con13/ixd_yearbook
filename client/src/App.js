@@ -3,20 +3,16 @@ import './App.css';
 
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import Bingo from './Components/Bingo/Bingo';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 function App() {
-  let [data,setData] = useState(null);
-  // useEffect(() => {
-  //   let getResults = async() => {
-  //     let results = await axios.get('http://localhost:5000');
-  //     setData(results);
-  //   }
-  //   getResults();
-  // }, [data])
+
+
   return (
-    <div className="App">
-      <p>Testing to see if its served</p>
-    </div>
+    <Router>
+      <Route path='/bingo' component={Bingo} />
+    </Router>
   );
 }
 

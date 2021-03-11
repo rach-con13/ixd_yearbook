@@ -1,4 +1,8 @@
 import styled from 'styled-components';
+import { Base } from './main';
+
+
+
 
 export const Button = styled(Base).attrs({
     as: "button"

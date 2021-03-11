@@ -37,6 +37,7 @@ export const Modal = styled(Container)`
 export const Grid = styled(Base)`
     display:grid;
     grid-template-columns:${props => props.cols ? props.cols : 'initial'};
+    grid-template-rows:${props => props.rows ? props.rows : 'initial'};
     grid-gap:${props => props.gap ? props.gap : '0'};
     width:100%;
 `
