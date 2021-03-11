@@ -13,12 +13,12 @@ export default function BingoHeaderContent(props) {
         
     
         <Grid style={{alignItems:'center'}} cols='auto 1fr'>  
-            <BingoTitle >What type of <AccentText size='48px' color='#FFD149'>IXD</AccentText> <AccentText size='48px' color='#7B61FF'>Designer</AccentText>are you?</BingoTitle>
+            <BingoTitle >What type of <AccentText family='Playfair Display' size='48px' color='#FFD149'>IXD</AccentText> <AccentText family='Playfair Display' size='48px' color='#7B61FF'>Designer</AccentText>are you?</BingoTitle>
             <LogoImg src={Logo} />
         </Grid>
         <Container >
-         <Typography size='18px'>Rules</Typography>
-         <Paragraph style={{width:'80%'}}>
+         <Typography family='ABeeZee' size='18px'>Rules</Typography>
+         <Paragraph family='ABeeZee' style={{width:'80%'}}>
          Choose as many squares you identify with! Once you’re done click the bingo button
          </Paragraph>
         </Container>

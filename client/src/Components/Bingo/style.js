@@ -22,7 +22,8 @@ height:100%;
 
 export const BingoTitle = styled(Title)`
     line-height:1.9em;
-    font-family:"Playfair Display";
+
+    font-family:"Chonburi";
 `
 export const LogoImg = styled.img`
 
@@ -51,7 +52,8 @@ export const BingoItemText = styled(Typography)`
     top:50%;
     left:50%;
     font-size:10px;
-
+    width:80%;
+    font-family:ABeeZee;
     text-align:center;
     transform:translate(-50%,-50%);
 

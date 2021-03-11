@@ -13,7 +13,7 @@ export default function BingoResults(props) {
     return (
     
     <Container  size='70%' top='40px'>
-        <Typography  size='24px' family='Playfair Display'>You are a </Typography>
+        <Typography  size='24px' family='Chonburi'>You are a </Typography>
         <Container padding='24px' top='24px' border='2px solid  #7B61FF'  fill='white'  fullWidth>
             <Grid style={{alignItems:'center'}} gap='32px'  cols='minmax(80px,120px) 1fr'>
                 <LogoImg  style={{background:'red',width:'100%'}} src={Logo} />

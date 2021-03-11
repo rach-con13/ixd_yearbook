@@ -9,6 +9,11 @@ export const Typography=styled.p`
     display:${props => props.inline ? 'inline' : 'block'};
     font-family:${props => props.family};
 `;
+export const Test = styled.p`
+    font-family:"Chonburi";
+    font-weight:bold;
+    font-size:40px;
+`;
 
 export const Title=styled(Typography).attrs({
     as:'h1'
